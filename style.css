@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+}
+#röd-grid {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 9fr 1fr;
+  grid-template-rows: 15vh 85vh;
+  background-color: black;
+}
+
+header {
+  grid-column: 1 / span 3;
+  background-color: green;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  grid-column: 1 / span 3;
+}
+#background-img {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../img/bak.jpg");
+  background-size: 90% 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+#röd-grid .grid {
+  display: grid;
+}
