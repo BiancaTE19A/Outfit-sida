@@ -1,0 +1,17 @@
+[
+{
+    "name": "scarface",
+    "type": "t-shirt",
+    "goes-well-with": ["red-tripp-nyc-pants", "striped pants"]
+},
+{
+    "name": "red-tripp-nyc-pants",
+    "type": "pant",
+    "goes-well-with": ["scarface"]
+},
+{
+    "name": "striped-pants",
+    "type": "pants",
+    "goes-well-with": ["scarface"]
+}
+]
